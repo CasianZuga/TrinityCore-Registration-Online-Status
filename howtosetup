@@ -1,0 +1,11 @@
+Setting up this website all you will need is a text editor more likely Notepad++ is more reliable and helps a lot so make sure to have that installed in order to make your life easier.
+
+#1 Download the files and extract them into your HTDOCS folder if you are using XAMPP, its the same for Wamp.  
+If you are using Linux just open folder var/html/www/public_html/ and extract it there you should know, anyway 
+
+#2 Once the files are extracted go ahead and go into the folder, where you extracted the files and locate folder core, open it up, locate the file
+*Register.php* and open it up with Notepad++, on like 8 you should see *  $Database = new Database("localhost", "root", "yourdatabasepassword", "yourrealmdatabase"); * its prety simple just make your brain work. once you have put in your information go ahead and save the file.
+
+#3 Locate file Online.php, open it up with Notepad++ on line 4 it explains what to do. once you have done that go to line 29 and it tells you what to do, once you have done that your website is now ready and it will work test it out.
+
+If you encounter any bugs on using the website please report it on ac-web or GitHub. 
